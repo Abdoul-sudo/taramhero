@@ -23,8 +23,8 @@ const staggerContainer = {
 export default function Home() {
   return (
     <main className="min-h-dvh bg-[#1C1C1C]">
-      <section className="relative overflow-hidden">
-        <div className="mx-auto flex max-w-6xl flex-col gap-14 px-4 pt-16 pb-12 sm:px-6 sm:pt-20 sm:pb-16 md:pt-24 md:pb-24">
+      <section className="relative overflow-hidden min-h-dvh flex items-center">
+        <div className="mx-auto flex max-w-6xl flex-col gap-14 px-4 py-12 sm:px-6 sm:py-16 md:py-24">
           <motion.div
             className="flex flex-col items-center gap-6 text-center"
             variants={staggerContainer}
